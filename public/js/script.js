@@ -5,7 +5,7 @@
     
         // Send the POST request.
         var id =$(this).attr("id");
-        $.ajax("/api/burgers/"+ id, {
+        $.ajax("/api/burgers"+ id, {
           type: "PUT",
           
         }).then(
